@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    color: white;
+}
+
+.info {
+    background-color: #1F2937;
+    color: white
+}
+
+button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    width: 75px;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+    gap: 32px;
+}
