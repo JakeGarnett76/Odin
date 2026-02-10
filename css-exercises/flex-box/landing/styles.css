@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto';
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -23,7 +24,20 @@ body {
 
 .info {
     background-color: #1F2937;
-    color: white
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.left-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-info {
+    width: 50;
+    height: 100;
 }
 
 button {
@@ -31,7 +45,8 @@ button {
     border: 0;
     border-radius: 10px;
     color: white;
-    width: 75px;
+    width: 100px;
+    height: 30px;
     gap: 10px;
 }
 
