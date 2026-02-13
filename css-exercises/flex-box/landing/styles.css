@@ -1,5 +1,9 @@
-body {
+*{ 
     font-family: 'Roboto';
+}
+
+body {
+
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -22,7 +26,32 @@ body {
     color: white;
 }
 
-.info {
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.imgWrapper {
+    text-align: center;
+    width: 150px
+}
+
+.imgWrapper img {
+    margin-top: 10px;
+    border: 2px solid #3882F6;
+    border-radius: 15%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.section1 {
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -30,14 +59,68 @@ body {
     gap: 100px;
 }
 
-.left-info {
+.left-section1 {
     display: flex;
     flex-direction: column;
 }
 
-.right-info {
+.right-section1 {
     width: 50;
     height: 100;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    width: 65%;
+    height: 150px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blue-box button {
+    border: solid white 2px; 
+    border-radius: 10%; 
+    width: 150px; 
+    height: 40px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    text-wrap: normal;
+    width: 700px;
 }
 
 button {
